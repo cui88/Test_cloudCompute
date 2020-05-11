@@ -1,0 +1,9 @@
+HTTP/1.0 404 Not Found
+Server: Lab2 server
+Content-type: text/html
+Content-Length: 114
+
+<html><title>404 Not Found</title><body bgcolor=ffffff>
+Not Found
+<hr><em>HTTP Web server</em>
+</body></html>

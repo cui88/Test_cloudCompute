@@ -1,0 +1,10 @@
+HTTP/1.0 200 OK
+Server: Lab2 server
+Content-type: text/html
+Content-Length: 101
+
+<html><title>Post</title>
+Your Name: HNU
+ID: CS06142
+<hr><em>Http Web server</em>
+</body><html>

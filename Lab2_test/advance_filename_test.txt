@@ -1,0 +1,2 @@
+https://github.com/KimbingNg/CloudComputingLabs.git
+https://github.com/cui88/CloudComputingLabs.git

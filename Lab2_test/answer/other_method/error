@@ -1,0 +1,9 @@
+HTTP/1.0 501 Not Implemented
+Server: Lab2 server
+Content-type: text/html
+Content-Length: 152
+
+<html><title>501 Not Implemented</title><body bgcolor=ffffff>
+<p>Does not implement this method: DELETE
+<hr><em>HTTP Web server</em>
+</body></html>

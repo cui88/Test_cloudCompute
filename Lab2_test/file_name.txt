@@ -1,0 +1,5 @@
+./basic/get_test/correct#200
+./basic/get_test/error#404
+./basic/post_test/correct#HNU
+./basic/post_test/error#404
+./basic/other_method#501

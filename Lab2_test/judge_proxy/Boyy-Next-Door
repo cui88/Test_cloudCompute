@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<style>
+    .box{
+        /*绝对定位 */
+        position: absolute;
+
+        /* 居中 */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        /*!* 整个登陆图层的宽度 *!*/
+        /*width: 880px;*/
+        width:min-content;
+
+        /* 登陆图层内部元素跟图层边框的四周距离 */
+        padding: 40px;
+
+        /* 背景颜色 纯白 不透明度0.6 */
+        background: rgba(195, 195, 193, 0.4);
+
+        /* 设置box-sizing模式为border-box 这样内含图层的padding和border都会算在其大小中 */
+        box-sizing: border-box;
+
+        /* 添加阴影  x轴 y轴 blur 颜色*/
+        box-shadow: 0 15px 20px rgba(0,0,0,.8);
+
+        /* 设置圆角 */
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .innerimg{
+        /*!*width: auto;*!        自适应父级容器*/
+        /*height: auto;*!        自适应父级容器*/
+        width: 800px;
+    }
+    .body_bg{
+        background-image: url(img/bg.png);
+    }
+
+</style>
+<body class="body_bg">
+    <div class="box">
+        <H1 align="center"> 一朵鲜花三根草🐂🍺！</H1>
+        <img src="img/team.jpg" class="innerimg">
+        <p align="center">
+            杨佳政 201708010207<br />
+            巴琰雯 201708010211<br />
+            缴天朔 201708010301<br />
+            赵国强 201708010328<br />
+        </p>
+        <p align="center">GeorgeYang是组中最美的🌼姑娘^_^<br />
+        </p>
+        <hr>
+    </div>
+
+</body>
+</html>

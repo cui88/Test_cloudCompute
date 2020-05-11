@@ -1,0 +1,18 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   297  100   297    0     0   290k      0 --:--:-- --:--:-- --:--:--  290k
+HTTP/1.0 200 OK
+Server: Lab2 server
+Content-type: text/html
+Content-Length: 297
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTO HTML 2.0//EN">
+<html><head>
+<title>CS06142</title>
+</head><body>
+<h1 align="center">CS06142</h1>
+<p align="center">Welcome to Cloud Computing Course.<br />
+</p>
+<hr>
+<address align="center">Http Server at ip-127.0.0.1 Port 8888</address></body></html>
